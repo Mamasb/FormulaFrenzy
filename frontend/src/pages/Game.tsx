@@ -59,11 +59,11 @@ const sampleQuestions: Question[] = [
   },
   {
     id: 6,
-    questionText: 'What is 12 divided by 4?',
-    options: ['2', '3', '4', '6'],
-    correctAnswer: '3',
+    questionText: 'Find the value of 0.092/(0.84-0.38)',
+    options: ['.2326', '0.2', '0.075', '-0.2704'],
+    correctAnswer: '0.2',
     section: 'A',
-    explanation: '12 ÷ 4 = 3.',
+    explanation: 'BODMAS',
     marks: 2,
   },
   // Add additional 14 questions to make it 20 as per your request
@@ -146,9 +146,9 @@ const sampleQuestions: Question[] = [
   },
   {
     id: 16,
-    questionText: 'What is 14 × 3?',
-    options: ['42', '43', '44', '45'],
-    correctAnswer: '42',
+    questionText: 'Write the following number in standard form. 0.0317',
+    options: ['317*10^4', '31.7*10^-3', '3.17*10^-2', '3.17*10'],
+    correctAnswer: '3.17*10^-2',
     section: 'A',
     explanation: '14 × 3 = 42.',
     marks: 2,
@@ -178,6 +178,7 @@ const sampleQuestions: Question[] = [
     explanation: '10% of 200 = 200 × 0.1 = 20.',
     marks: 2,
   },
+  
   {
     id: 20,
     questionText: 'What is the volume of a cylinder with radius 3 and height 5?',
